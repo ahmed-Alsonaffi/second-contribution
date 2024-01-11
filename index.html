@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-dark">
@@ -64,6 +65,46 @@
 
             <button type="submit" class="btn btn-danger">Submit</button>
         </form>
+    </div>
+    <div class="carousel slide" id="demo_carousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button data-bs-target="#demo_carousel" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#demo_carousel" data-bs-slide-to="1"></button>
+            <button data-bs-target="#demo_carousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="home2.jpg" style="width: 100%; height: 400px;">
+                <div class="carousel-caption">
+                    <h2>Image 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. uas, in cum volupt</p>
+                    <button class="btn btn-danger">image</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="home3.jpg" style="width: 100%; height: 400px;">
+                <div class="carousel-caption">
+                    <h2>Image 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. uas, in cum volupt</p>
+                    <button class="btn btn-primary">image</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="home4.jpg" style="width: 100%; height: 400px;">
+                <div class="carousel-caption">
+                    <h2>Image 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. uas, in cum volupt</p>
+                    <button class="btn btn-warning">image</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#demo_carousel">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#demo_carousel">
+            <span class="carousel-control-next-icon"></span>
+        </button>
     </div>
 
 </body>
